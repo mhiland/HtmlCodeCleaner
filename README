@@ -1,1 +1,3 @@
-A Ruby Gem to clean a given string of html code, replacing html code with ascii symbols
+A Ruby Gem to clean a given string of HTML Numbers, replacing the html code with the symbol.
+
+Currently 243 symbols in the dictionary.
