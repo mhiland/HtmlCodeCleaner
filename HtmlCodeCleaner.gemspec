@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name               = "HtmlCodeCleaner"
-  s.version            = "0.0.2"
+  s.version            = "0.0.3"
   s.default_executable = "hcc"
 
   s.authors = ["Michael Hiland"]
-  s.date = %q{2014-11-12}
+  s.date = Time.now.strftime('%F')
   s.licenses    = ['GPL-3.0']
   s.description = %q{Parse a string of the html number, replace code with the corresponding symbol}
   s.email = %q{g2c9@ugrad.cs.ubc.ca}
@@ -15,12 +15,4 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{2.2.2}
   s.summary = %q{Replace Html code with symbol}
 
-  if s.respond_to? :specification_version then
-    s.specification_version = 3
-
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-    else
-    end
-  else
-  end
 end
