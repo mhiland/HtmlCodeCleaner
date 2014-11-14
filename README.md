@@ -7,7 +7,10 @@ A Ruby Gem to clean a given string of HTML Name and Numbers, replacing the html 
 Currently 400 HTML Names and Numbers in the dictionary.
 
 
-Gemfile:
+Installation:
 --------
+Gemfile:
 
+```ruby
 gem 'HtmlCodeCleaner', '~> 0.0.4'
+```
